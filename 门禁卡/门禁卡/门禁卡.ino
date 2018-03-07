@@ -469,7 +469,7 @@ void loop()
 			if (findID(readCard))
 			{	// If not, see if the card is in the EEPROM
 				Serial.println(F("Welcome, You shall pass"));
-				granted();        	// Open the door lock for 300 ms
+				granted();
 			}
 			else
 			{			// If not, show that the ID was not valid
@@ -510,8 +510,19 @@ void granted()
 		for (int i = 0; i < 100; i++)
 		{
 			if (!isDoorOpened())
+			{
 				servo(DoorOpenAngle); 		// hold the angle untill the door is pushed open
+			}
+			else
+				break;
 		} 
+#ifdef DEBUG
+		if (isDoorOpened())
+			Serial.println("door opened");
+		else
+			Serial.println("door failed to open");
+#endif // DEBUG
+
 		servo(DoorCloseAngle); 		// Relock door
 		digitalWrite(RelayControlPin, POWEROFF);
 	}
@@ -797,7 +808,6 @@ void successDelete()
 	digitalWrite(blueLed, LED_ON); 	// Make sure blue LED is on
 	delay(200);
 	beep();
-	beep();
 }
 
 ////////////////////// Check readCard IF is masterCard   ///////////////////////////////////
@@ -852,7 +862,7 @@ bool isDoorOpened()
 	{
 		//用干簧管,有磁场时为低电平,需要在门旁放一磁铁,故开门后为高
 		digitalWrite(DoorStatusDetectorVccPin, HIGH);//power the detector
-		delay(100);//wait the detector to initiallize
+		delay(10);//wait the detector to initiallize
 		if (digitalRead(DoorStatusDetectorPin) == HIGH)
 		{
 			digitalWrite(DoorStatusDetectorVccPin, LOW);//power off

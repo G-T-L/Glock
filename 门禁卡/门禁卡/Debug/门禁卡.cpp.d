@@ -1,0 +1,30 @@
+C:\Users\67319\AppData\Local\Temp\VMBuilds\це╫Ш©╗\mega_atmega2560\Debug\це╫Ш©╗.cpp.o: \
+ C:\Users\67319\AppData\Local\Temp\VMBuilds\це╫Ш©╗\mega_atmega2560\Debug\це╫Ш©╗.cpp \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/Arduino.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/binary.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/WCharacter.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/WString.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/HardwareSerial.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/Stream.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/Print.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/Printable.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/USBAPI.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/Arduino.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\variants\mega/pins_arduino.h \
+ D:\Documents\Arduino\libraries\Arduino-IRremote-master/IRremote.h \
+ D:\Documents\Arduino\libraries\Arduino-IRremote-master/IRremoteInt.h \
+ D:\Documents\Arduino\libraries\Arduino-IRremote-master/boarddefs.h \
+ D:\Documents\Arduino\libraries\MFRC522\src/MFRC522Extended.h \
+ D:\Documents\Arduino\libraries\MFRC522\src/MFRC522.h \
+ D:\Documents\Arduino\libraries\MFRC522\src/require_cpp11.h \
+ D:\Documents\Arduino\libraries\MFRC522\src/deprecated.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries\SPI\src/SPI.h \
+ D:\Documents\Arduino\libraries\GPRS_SIM900-modified/sim900_modified.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries\SoftwareSerial\src/SoftwareSerial.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino/Stream.h \
+ D:\Documents\Arduino\libraries\GPRS_SIM900-modified/GPRS_Shield_Arduino_modified.h \
+ D:\Documents\Arduino\libraries\GPRS_SIM900-modified/sim900_modified.h \
+ C:\Users\67319\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries\EEPROM\src/EEPROM.h \
+ D:\Documents\Arduino\libraries\MFRC522\src/MFRC522.h \
+ D:\Portable\ Programs\arduino-1.8.2\libraries\Servo\src/Servo.h \
+ D:\Portable\ Programs\arduino-1.8.2\libraries\Servo\src/avr/ServoTimers.h
